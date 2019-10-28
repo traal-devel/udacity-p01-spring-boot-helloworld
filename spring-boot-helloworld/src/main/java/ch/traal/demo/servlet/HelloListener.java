@@ -17,6 +17,7 @@ public class HelloListener implements ServletContextListener {
   /* methods */
   @Override
   public void contextDestroyed(ServletContextEvent servletContextEvent) {
+    
     System.out.println("Servlet Context Destroyed");
   }
 
